@@ -9,28 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Background Color</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            body{
-                width: 100vw;
-                height: 100vh;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-
-            button{
-                padding: 15px 30px;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-        </style>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -38,26 +17,6 @@
         <![endif]-->
         <button>Click me!</button>
 
-        <script>
-            /**
-             * Catching page's elements 
-            */
-            const body = document.querySelector('body')
-            const button = document.querySelector('button')
-
-            /**
-             * Array with colors
-            */
-            const colors = 'pink black blue red yellow gray'.split(' ')
-
-            /**
-             * 'Listening' to the button's click
-            */
-            button.addEventListener('click', () => {
-                const randomIndex = Math.floor(Math.random() * colors.length)
-                const color = colors[randomIndex]
-                body.style.backgroundColor = color
-            })
-        </script>
+        <script src="./index.js"></script>
     </body>
 </html>
