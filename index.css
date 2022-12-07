@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +12,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 button{
+    border: none;
     padding: 15px 30px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    transition: all ease 0.2s;
+}
+
+button:hover{
+    background-color: rgba(230, 230, 230, 1);
 }
