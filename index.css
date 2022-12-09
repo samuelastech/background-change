@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -15,16 +15,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-button{
+button {
     border: none;
     padding: 15px 30px;
+    margin: 0 10px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
     font-size: 1rem;
+    font-weight: bold;
     transition: all ease 0.2s;
 }
 
-button:hover{
-    background-color: rgba(230, 230, 230, 1);
+button:hover {
+    background: rgba(230, 230, 230, 1);
 }
